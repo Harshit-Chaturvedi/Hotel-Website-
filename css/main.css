@@ -1,0 +1,289 @@
+/* Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+    
+
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+h1 , h2 , h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0px;
+}
+
+/* Utlity classes */
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding: 0px 20px;
+}
+
+.primary-text {
+    color: #e8a925;
+}
+
+.lead-para {
+    font-size: 20px;
+}
+
+.btn {
+    color: #fff;
+    display: inline-block;
+    background: #222;
+    padding: 13px 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+}
+
+
+
+.btn:hover {
+    background-color: #222;
+    color: #cb4c3a;
+}
+
+.btn-light {
+    background: #fff;
+    color: #333;
+}
+
+.bg-dark {
+    background-color: #111;
+    color: #f4f4f4;
+}
+
+.bg-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    background: #cb4c3a;
+    color: #fff;
+}
+
+.clr {
+    clear: both;
+}
+
+.l-heading {
+    font-size: 30px;
+}
+
+.py-1 {padding: 10px 0;}
+.py-2 {padding: 20px 0;}
+.py-3 {padding: 30px 0;}
+
+
+/* Nav Bar */
+
+#nav-bar {
+    background: #111;
+    color: #fff;
+    overflow: auto;
+}
+
+#nav-bar a {
+    color: #fff;
+}
+
+#nav-bar .logo {
+    float: left;
+    padding-top: 20px;
+}
+
+#nav-bar ul {
+    float: right;
+    list-style: none;
+}
+
+#nav-bar ul li {
+    float: left;
+    
+}
+
+#nav-bar ul li a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+#nav-bar ul li a:hover,
+#nav-bar ul li a.current {
+    background: #333;
+    color: #cb4c3a;
+}
+
+/* Showcase */
+
+#showcase {
+    background: url('../img/khadeeja-yasser-msFZE7d9KB4-unsplash.jpg') no-repeat center center/cover;
+    height: 500px;
+    
+}
+
+#showcase .showcase-content {
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+}
+
+#showcase .showcase-content h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.6em;}
+
+/* Home info */
+
+#home-info {
+    height: 500px;
+}
+
+#home-info .info-image {
+    float: left;
+    width: 50%;
+    background: url('../img/gondola-ride-1697076.jpg') no-repeat center center/cover;
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    text-align: center;
+    height: 100%;
+    padding: 80px 30px;
+    overflow: hidden;
+}
+
+#home-info .info-content p {
+    padding-bottom: 30px;
+}
+
+/* Features */
+
+.box {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 50px;
+
+}
+
+.box i {
+    margin-bottom: 20px;
+}
+
+/* About */
+
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .info-right img {
+    display: block;
+    width: 70%;
+    border-radius: 50%;
+    margin: auto;
+}
+
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+/* Testimonial */
+
+#testimonials {
+    height: 100%;
+    background: url('../img/test-bg.jpg') no-repeat center center/cover;
+    padding-top: 100px;
+}
+
+
+#testimonials h2{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#testimonials .testimonial{
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    opacity: 0.9;
+    overflow: auto;
+    
+}
+
+#testimonials .testimonial img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50px;
+    
+    
+}
+
+/* contact us form */
+
+#contact-form {
+    margin-bottom: 20px;
+    
+}
+
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea{
+
+    width:100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+    outline: none;
+    border-color: #e8a925;
+}
+#contact-form textarea {
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+
+footer{
+    text-align: center;
+    background: #292929;
+    color: #f4f4f4;
+    padding: 20px;
+}

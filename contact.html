@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Website | Contact</title>
+    <script src="https://kit.fontawesome.com/d2a386da24.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
+</head>
+</head>
+
+<body>
+    <header>
+        <nav id="nav-bar">
+            <div class="container">
+
+                <h1 class="logo"><a href="index.html">Hotel Name</a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a class="current" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h2 class="l-heading"><span class="primary-text">Contact</span> Us</h2>
+            <p>Please fill the form to contact us</p>
+
+            <form action="process.php">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                </div>
+                <button type="submit" class="btn">Submit</button>
+            </form>
+        </div>
+    </section>
+    <section class="contact-info bg-dark">
+        <div class="container">
+            <div class="box">
+                <i class="fas fa-hotel fa-3x"></i>
+                <h3>Location</h3>
+                <p>432, Outer Circle, CP, New Delhi</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-phone fa-3x"></i>
+                <h3>Contact</h3>
+                <p>123-456-7890
+                </p>
+            </div>
+            <div class="box">
+                <i class="fas fa-envelope fa-3x"></i>
+                <h3>Email</h3>
+                <p>abc@xyz.com</p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <footer id="main-footer">
+        <p>Copyright &copy; 2020, All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
